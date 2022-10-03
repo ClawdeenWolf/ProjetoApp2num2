@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:projeto_2/screens/artigos.dart';
 import 'package:projeto_2/screens/bookmark.dart';
 import 'package:projeto_2/screens/favoritos.dart';
-import 'package:projeto_2/screens/settings.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -53,9 +52,8 @@ class _HomePageState extends State<HomePage> {
             color: Colors.white,
           ),
         ],
-        backgroundColor: Color(0xff59e7af),
+        backgroundColor: Colors.transparent,
         color: Color(0xFFc67c9d),
-        
         animationDuration: Duration(milliseconds: 300),
       ),
     );
