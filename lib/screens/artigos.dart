@@ -23,7 +23,7 @@ class Artigos extends StatelessWidget {
     );
   }
 }
-
+//eu
 Widget card1() => Card(
       clipBehavior: Clip.antiAlias,
       color: Color.fromARGB(255, 231, 180, 203),
