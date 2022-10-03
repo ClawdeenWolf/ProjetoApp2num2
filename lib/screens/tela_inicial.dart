@@ -25,7 +25,6 @@ class _HomePageState extends State<HomePage> {
     Artigos(),
     Favoritos(),
     Bookmark(),
-    Settings(),
   ];
 
   @override
@@ -53,13 +52,10 @@ class _HomePageState extends State<HomePage> {
             Icons.bookmark,
             color: Colors.white,
           ),
-          Icon(
-            Icons.settings,
-            color: Colors.white,
-          ),
         ],
         backgroundColor: Color(0xff59e7af),
         color: Color(0xFFc67c9d),
+        
         animationDuration: Duration(milliseconds: 300),
       ),
     );
