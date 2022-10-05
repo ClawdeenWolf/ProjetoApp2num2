@@ -5,9 +5,11 @@ class Favoritos extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text(
-        'Favoritos',
+    return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        backgroundColor: Color(0xFFc67c9d),
+        title: const Text("Favoritos"),
       ),
     );
   }

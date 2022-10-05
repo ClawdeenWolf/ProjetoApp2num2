@@ -29,11 +29,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text("Help list for mothers"),
-        centerTitle: true,
-        backgroundColor: Color(0xFFc67c9d),
-      ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: CurvedNavigationBar(
         onTap: _navigateBottomBar,
